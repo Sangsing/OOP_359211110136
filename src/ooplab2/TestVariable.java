@@ -24,7 +24,7 @@ public class TestVariable {
         System.out.println(name);
         String msg = s + " " + name;
         System.out.println(msg);
-        String msg2 = s.concat(" "+name);
+        String msg2 = s.concat(" "+ name);
         System.out.println(msg2);
         System.out.println(msg.length());
         System.out.println(msg.toUpperCase());
