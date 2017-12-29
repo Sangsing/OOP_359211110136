@@ -15,6 +15,5 @@ public class myStrBuff {
         System.out.println(myBuf.capacity());
         System.out.println(myBuf.reverse());
 
-
     }//main
 }//class
