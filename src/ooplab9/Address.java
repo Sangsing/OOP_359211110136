@@ -4,7 +4,6 @@ public class Address {
     private String homeNo;
     private String province;
     private String postCode;
-    //toString
 
     @Override
     public String toString() {
@@ -13,12 +12,6 @@ public class Address {
                 ", province='" + province + '\'' +
                 ", postCode='" + postCode + '\'' +
                 '}';
-    }
-
-    public Address(String homeNo, String province, String postCode) {
-        this.homeNo = homeNo;
-        this.province = province;
-        this.postCode = postCode;
     }
 
     public String getHomeNo() {
@@ -44,4 +37,10 @@ public class Address {
     public void setPostCode(String postCode) {
         this.postCode = postCode;
     }
-}//class
+
+    public Address(String homeNo, String province, String postCode) {
+        this.homeNo = homeNo;
+        this.province = province;
+        this.postCode = postCode;
+    }
+}
